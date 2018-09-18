@@ -1,0 +1,13 @@
+[
+  "test/index_test.py::test_shopping_cart_class",
+  "test/index_test.py::test_shopping_cart_initial_values",
+  "test/index_test.py::test_cash_register_initial_values_with_discount",
+  "test/index_test.py::test_cash_register_decorator_methods",
+  "test/index_test.py::test_add_item_method",
+  "test/index_test.py::test_mean_item_price_method",
+  "test/index_test.py::test_median_item_price_odd_count_method",
+  "test/index_test.py::test_median_item_price_even_count_method",
+  "test/index_test.py::test_item_names_method",
+  "test/index_test.py::test_apply_discount_method",
+  "test/index_test.py::test_void_last_item_method"
+]
