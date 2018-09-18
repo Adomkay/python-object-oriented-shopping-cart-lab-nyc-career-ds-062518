@@ -14,15 +14,11 @@ In this lab we will be mimicing the functionality of a shopping cart with our kn
 
 We will need to build a ShoppingCart class that creates a shopping cart with a total (`_total`) which starts at `0`, an empty list of items (`_items`), and an optional employee discount (`_employee_discount`). 
 
-**Hint:** if there is no employee discount present, this might be a good opportunity to use of datatype `None` as a default value.
+> **Hint:** if there is no employee discount present, this might be a good opportunity to use the datatype `None` as a default value.
 
-Since we want to stick to convention, we next need to define instance methods that use decorators for these attributes to read and write (get and set) these attributes. We shouldn't need to set these attributes, but it's good practice! These instance methods should be named `total`, `items`, and `employee_discount`.
+Since we want to stick to convention, next we need to define instance methods that use properties for these attributes to read and write (get and set) these attributes. We shouldn't need to set these attributes, but it's good practice! These instance methods should be named `total`, `items`, and `employee_discount`.
 
-> **Note:** remember to load the autoreload extension from IPython
-```python
-%load_ext autoreload
-%autoreload 2
-```
+> **Remember:** to re-load the your updated code, you will need to re-run the import below.
 
 
 ```python
