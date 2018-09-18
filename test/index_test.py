@@ -72,6 +72,8 @@ def test_void_last_item_method():
     example_shc_void_last_item.add_item("ice cream", 5.00)
     example_shc_void_last_item.add_item("cereal", 10.00)
     example_shc_void_last_item.add_item("OJ", 4.00, 2)
+    assert example_shc_void_last_item.total == 23.0
+    assert len(example_shc_void_last_item.items) == 4
     example_shc_void_last_item.void_last_item()
     assert len(example_shc_void_last_item.items) == 3
     assert example_shc_void_last_item.total == 19.0
